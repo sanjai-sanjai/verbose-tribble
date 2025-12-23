@@ -190,13 +190,13 @@ export function RealLifeBudgetSurvival({ onComplete }: { onComplete: (score: num
 
       {/* Messages */}
       {message && (
-        <div className="max-w-4xl mx-auto w-full p-4 bg-primary/20 border border-primary/50 rounded-xl text-sm text-foreground animate-in fade-in font-medium">
+        <div className="max-w-5xl mx-auto w-full p-3 sm:p-4 bg-primary/20 border border-primary/50 rounded-xl text-sm text-foreground animate-in fade-in font-medium">
           {message}
         </div>
       )}
 
       {/* Expenses Grid */}
-      <div className="max-w-4xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div className="max-w-5xl mx-auto w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-3 sm:gap-4 lg:gap-5">
         {expenses.map((expense) => {
           const key = `${gameState.day}-${expense.id}`;
           const decision = gameState.decisions[key];
