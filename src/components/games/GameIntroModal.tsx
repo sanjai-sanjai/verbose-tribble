@@ -30,6 +30,7 @@ export function GameIntroModal({
   return (
     <Dialog open={isOpen} onOpenChange={(open) => !open && onGoBack()}>
       <DialogContent className="glass-card border-accent/30 max-w-2xl max-h-[90vh] overflow-y-auto">
+        <DialogTitle className="sr-only">{config.conceptName}</DialogTitle>
         <DialogHeader className="text-center space-y-4 pb-4">
           {GameIcon && (
             <div className="flex justify-center">
