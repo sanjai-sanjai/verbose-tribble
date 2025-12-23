@@ -234,7 +234,7 @@ export default function ElementHunter({ onComplete }: ElementHunterProps) {
       {/* Element Grid */}
       <div className="mb-4 rounded-xl border border-border bg-card p-4 slide-up" style={{ animationDelay: "150ms" }}>
         <h4 className="mb-4 font-heading font-semibold">Select an Element</h4>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
           {elements.map((element) => (
             <button
               key={element.id}

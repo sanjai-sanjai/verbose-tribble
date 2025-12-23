@@ -271,7 +271,7 @@ export default function PHQuest({ onComplete }: PHQuestProps) {
       <div className="mb-4 rounded-xl border border-border bg-card p-4 slide-up" style={{ animationDelay: "250ms" }}>
         <h4 className="mb-4 font-heading font-semibold text-center">Add Drops</h4>
 
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-4 max-w-md mx-auto">
           <Button
             onClick={() => handleAddDrop("acid")}
             disabled={isNeutral}

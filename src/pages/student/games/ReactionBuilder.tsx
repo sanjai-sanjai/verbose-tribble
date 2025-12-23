@@ -257,7 +257,7 @@ export default function ReactionBuilder({ onComplete }: ReactionBuilderProps) {
       <div className="rounded-xl border border-border bg-card p-4 slide-up flex-1" style={{ animationDelay: "200ms" }}>
         <h4 className="mb-3 font-heading font-semibold">Available Molecules</h4>
 
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           {molecules.map((molecule) => (
             <button
               key={molecule.id}

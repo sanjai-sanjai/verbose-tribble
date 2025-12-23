@@ -435,7 +435,7 @@ export default function GameLevelPage() {
 
   return (
     <AppLayout role="student" playCoins={wallet?.balance || 0} title={`${subjectTitle} - Level ${levelId}`}>
-      <div className="px-4 py-6 pb-24">
+      <div className="px-4 py-6 pb-24 max-w-5xl mx-auto w-full">
         {/* Progress Header - Only show if QUIZ or standard types, CUSTOM types have their own */}
         {gameConfig.type === "quiz" && (
           <div className="mb-6 slide-up">

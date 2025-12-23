@@ -80,6 +80,7 @@ export function AppLayout({
           showHeader && "pt-14",
           showHeader && showBreadcrumb && "pt-24",
           showTabBar && "pb-20",
+          "w-full max-w-7xl mx-auto md:px-8 transition-all duration-300",
           className
         )}
       >

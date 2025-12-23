@@ -259,7 +259,7 @@ export default function BondMaster({ onComplete }: BondMasterProps) {
         <h4 className="mb-6 font-heading font-semibold text-center">Build the Molecule</h4>
 
         <div className="relative mb-6">
-          <div className="flex flex-wrap gap-4 justify-center items-center">
+          <div className="flex flex-wrap gap-4 justify-center items-center md:gap-6 lg:gap-8">
             {challenge.atoms.map((atom) => (
               <button
                 key={atom.id}
