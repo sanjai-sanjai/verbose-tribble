@@ -30,6 +30,12 @@ export { PriceCompareMaster } from "./PriceCompareMaster";
 export { MiniBusinessTycoon } from "./MiniBusinessTycoon";
 export { DigitalMoneyExplorer } from "./DigitalMoneyExplorer";
 
+// Finance Active Learning Components
+export { MoneyFlowVisualizer } from "./MoneyFlowVisualizer";
+export { GuidedSorter } from "./GuidedSorter";
+export { TimelineComparison } from "./TimelineComparison";
+export { InterestStory } from "./InterestStory";
+
 // Shared Game Components
 export { GameIntroModal } from "./GameIntroModal";
 export { GameContainer } from "./GameContainer";
