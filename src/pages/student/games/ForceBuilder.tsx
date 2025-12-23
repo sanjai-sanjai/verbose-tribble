@@ -451,23 +451,23 @@ export default function ForceBuilder() {
 
       {/* Embedded Info */}
       {!isFullscreen && (
-        <div className="mt-6 w-full max-w-4xl bg-orange-50 p-6 rounded-lg border border-orange-200">
+        <div className="mt-6 w-full max-w-4xl bg-card p-6 rounded-lg border border-border/50">
           <div className="space-y-4">
             <div>
-              <h3 className="font-bold text-gray-800 mb-2">📘 Concept</h3>
-              <p className="text-sm text-gray-700">
+              <h3 className="font-bold text-foreground mb-2">📘 Concept</h3>
+              <p className="text-sm text-foreground/80">
                 Force causes acceleration, not motion itself. The same force creates different accelerations on different masses.
               </p>
             </div>
             <div>
-              <h3 className="font-bold text-gray-800 mb-2">🕹 How to Play</h3>
-              <p className="text-sm text-gray-700">
+              <h3 className="font-bold text-foreground mb-2">🕹 How to Play</h3>
+              <p className="text-sm text-foreground/80">
                 Select an object, choose a force, apply it, and watch what happens. Try different objects with the same force!
               </p>
             </div>
             <div>
-              <h3 className="font-bold text-gray-800 mb-2">🧠 What You Learn</h3>
-              <p className="text-sm text-gray-700">
+              <h3 className="font-bold text-foreground mb-2">🧠 What You Learn</h3>
+              <p className="text-sm text-foreground/80">
                 Light objects accelerate faster. Heavy objects resist acceleration. Once the force is removed, motion continues!
               </p>
             </div>
