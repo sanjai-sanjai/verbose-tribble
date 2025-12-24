@@ -102,7 +102,7 @@ function ProblemSolutionMapper() {
                       ? solution.feasible
                         ? "bg-green-500/20 border border-green-500/50 text-green-600"
                         : "bg-red-500/20 border border-red-500/50 text-red-600"
-                      : "bg-white dark:bg-slate-800 border border-border hover:border-primary/50"
+                      : "glass-card border border-border hover:border-primary/50"
                   }`}
                 >
                   <div className="text-sm font-semibold">{solution.text}</div>
@@ -124,7 +124,7 @@ function ProblemSolutionMapper() {
           </div>
         )}
 
-        <div className="text-xs text-center text-muted-foreground bg-white dark:bg-slate-800 p-2 rounded">
+        <div className="text-xs text-center text-muted-foreground glass-card border border-border/50 p-2 rounded">
           Every business solves a real problem
         </div>
       </div>
