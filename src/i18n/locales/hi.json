@@ -70,7 +70,27 @@
     "justNow": "अभी-अभी",
     "unknown": "कभी सिंक नहीं हुआ",
     "offline": "ऑफ़लाइन — कनेक्ट होने पर सिंक होगा",
-    "languageChanged": "भाषा हिंदी में बदल दी गई है"
+    "languageChanged": "भाषा हिंदी में बदल दी गई है",
+    "allDataSynced": "सभी डेटा सिंक हो गया",
+    "dataNotSynced": "डेटा सिंक नहीं हुआ। इंटरनेट उपलब्ध होने पर टैप करें।",
+    "syncFailed": "सिंक विफल। पुनः प्रयास के लिए टैप करें।",
+    "today": "आज",
+    "at": "पर",
+    "successTitle": "डेटा सफलतापूर्वक सिंक हो गया!",
+    "successSubtitle": "आपकी सीखने की प्रगति अब सुरक्षित रूप से सहेजी गई है।",
+    "partialTitle": "कुछ डेटा सिंक नहीं हो सके",
+    "partialSubtitle": "कुछ आइटम सिंक करने में विफल। कृपया पुनः प्रयास करें।",
+    "itemsProcessed": "आइटम संसाधित",
+    "continueButton": "शानदार! सीखना जारी रखें",
+    "retryButton": "सिंक फिर से करें",
+    "tryLaterButton": "बाद में प्रयास करें",
+    "steps": {
+      "userProgress": "सीखने की प्रगति सिंक हुई",
+      "leaderboard": "लीडरबोर्ड अपडेट हुआ",
+      "eduCoins": "EduCoins वॉलेट सिंक हुआ",
+      "subjectProgress": "विषय प्रगति सहेजी गई",
+      "tasks": "कार्य और सत्यापन अपडेट हुए"
+    }
   },
   "languages": {
     "english": "English",
