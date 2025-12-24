@@ -346,6 +346,11 @@ const App = () => (
                     <EntrepreneurshipSubjectPage />
                   </ProtectedRoute>
                 } />
+                <Route path="/learn/entrepreneurship/active-learning" element={
+                  <ProtectedRoute allowedRoles={["student"]}>
+                    <EntrepreneurshipActiveLearningPage />
+                  </ProtectedRoute>
+                } />
                 <Route path="/learn/village-skills/levels" element={
                   <ProtectedRoute allowedRoles={["student"]}>
                     <VillageSkillsSubjectPage />
