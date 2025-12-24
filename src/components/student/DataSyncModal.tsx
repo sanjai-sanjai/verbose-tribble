@@ -164,7 +164,7 @@ export function DataSyncModal({
 
             return (
               <div
-                key={result.step}
+                key={`${result.step}-${index}`}
                 className={`flex items-center gap-3 p-3 rounded-lg transition-all duration-300 ${
                   isVisible
                     ? 'opacity-100 translate-y-0'
