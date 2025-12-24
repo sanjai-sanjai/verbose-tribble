@@ -81,7 +81,27 @@
     "justNow": "Just now",
     "unknown": "Never synced",
     "offline": "Offline – will sync when connected",
-    "languageChanged": "Language changed to English"
+    "languageChanged": "Language changed to English",
+    "allDataSynced": "All data synced",
+    "dataNotSynced": "Data not synced. Tap to sync when internet is available.",
+    "syncFailed": "Sync failed. Tap to retry.",
+    "today": "Today",
+    "at": "at",
+    "successTitle": "Data Synced Successfully!",
+    "successSubtitle": "Your learning progress is now safely saved.",
+    "partialTitle": "Some data could not be synced",
+    "partialSubtitle": "Some items failed to sync. Please retry.",
+    "itemsProcessed": "items processed",
+    "continueButton": "Awesome! Continue Learning",
+    "retryButton": "Retry Sync",
+    "tryLaterButton": "Try Later",
+    "steps": {
+      "userProgress": "Learning Progress Synced",
+      "leaderboard": "Leaderboard Updated",
+      "eduCoins": "EduCoins Wallet Synced",
+      "subjectProgress": "Subject Progress Saved",
+      "tasks": "Tasks & Verifications Updated"
+    }
   },
   "languages": {
     "english": "English",
