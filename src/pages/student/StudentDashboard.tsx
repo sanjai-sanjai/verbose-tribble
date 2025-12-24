@@ -154,7 +154,7 @@ export default function StudentDashboard() {
         <div className="mb-6 slide-up" style={{ animationDelay: "150ms" }}>
           <h3 className="mb-3 font-heading font-semibold text-foreground flex items-center gap-2">
             <Atom className="h-5 w-5 text-primary" />
-            Subjects
+            {t('common.subjects')}
           </h3>
           <div className="grid grid-cols-2 gap-3">
             {subjects.map((subject) => (
