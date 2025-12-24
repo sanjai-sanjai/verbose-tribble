@@ -1,5 +1,6 @@
 import { AppLayout } from "@/components/navigation";
 import { GameCard } from "@/components/ui/game-card";
+import { useTranslation } from "react-i18next";
 import {
   Atom,
   FlaskConical,
