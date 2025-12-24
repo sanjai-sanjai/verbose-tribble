@@ -406,7 +406,7 @@ export default function RewardsPage() {
               <div className="stats-row">
                 {/* Earned Card */}
                 <div className="stat-card earned-card">
-                  <div className="stat-label">Earned&nbsp;📈</div>
+                  <div className="stat-label">{t('rewards.earned')}&nbsp;📈</div>
                   <div className="stat-amount-row">
                     <span className="stat-amount">{earned.toLocaleString()}</span>
                     <div className="stat-coin">
@@ -431,7 +431,7 @@ export default function RewardsPage() {
 
                 {/* Spent Card */}
                 <div className="stat-card spent-card">
-                  <div className="stat-label">Spent 📉</div>
+                  <div className="stat-label">{t('rewards.spent')} 📉</div>
                   <div className="stat-amount-row">
                     <span className="stat-amount">{spent.toLocaleString()}</span>
                     <div className="stat-coin">
@@ -451,7 +451,7 @@ export default function RewardsPage() {
                 size="lg"
                 className="w-full bg-gradient-to-r from-primary to-primary/80 text-sm"
               >
-                Redeem Rewards
+                {t('rewards.redeemRewards')}
               </Button>
             </div>
 
@@ -493,7 +493,7 @@ export default function RewardsPage() {
                 style={{ animationDelay: "200ms" }}
               >
                 <Sparkles className="h-12 w-12 text-muted-foreground mx-auto mb-3 opacity-50" />
-                <p className="text-muted-foreground">No rewards in this category yet</p>
+                <p className="text-muted-foreground">{t('rewards.noRewardsInCategory')}</p>
               </div>
             ) : (
               <div className="grid grid-cols-2 gap-3 slide-up" style={{ animationDelay: "200ms" }}>
@@ -535,6 +535,7 @@ export default function RewardsPage() {
                       {!canAfford && !almostThere && (
                         <div className="absolute top-2 right-2 z-10 bg-muted text-muted-foreground px-2 py-1 rounded-full text-xs font-bold flex items-center gap-1">
                           <Lock className="h-3 w-3" />
+                          {t('rewards.locked')}
                         </div>
                       )}
 
@@ -592,7 +593,7 @@ export default function RewardsPage() {
                           {/* Unlock Progress */}
                           {!canAfford && (
                             <div className="text-xs text-muted-foreground text-center">
-                              Earn <span className="font-bold text-accent">{coinsNeeded}</span> more
+                              {t('rewards.earn')} <span className="font-bold text-accent">{coinsNeeded}</span> {t('rewards.more')}
                             </div>
                           )}
                           {canAfford && (
@@ -617,12 +618,12 @@ export default function RewardsPage() {
                           ) : !canAfford ? (
                             <span className="flex items-center gap-1 justify-center">
                               <Lock className="h-3 w-3" />
-                              Locked
+                              {t('rewards.locked')}
                             </span>
                           ) : (
                             <span className="flex items-center gap-1 justify-center">
                               <EduCoin size="sm" />
-                              Redeem
+                              {t('rewards.redeem')}
                             </span>
                           )}
                         </Button>
@@ -639,10 +640,9 @@ export default function RewardsPage() {
                 <p className="text-sm text-muted-foreground mb-2">
                   <span className="text-base">🌟</span>
                 </p>
-                <p className="font-medium text-foreground mb-2">Keep Learning, Keep Earning!</p>
+                <p className="font-medium text-foreground mb-2">{t('rewards.keepLearningKeepEarning')}</p>
                 <p className="text-xs text-muted-foreground">
-                  Every task, game, and achievement brings you closer to rewards that matter—for you, your
-                  family, and your village.
+                  {t('rewards.motivationalMessage')}
                 </p>
               </div>
             </div>
@@ -652,15 +652,15 @@ export default function RewardsPage() {
           <div className="slide-up" style={{ animationDelay: "100ms" }}>
             <h3 className="font-heading font-semibold text-xl text-foreground mb-6 flex items-center gap-2">
               <History className="h-6 w-6 text-primary" />
-              Transaction History
+              {t('rewards.transactionHistory')}
             </h3>
 
             {transactions.length === 0 ? (
               <div className="glass-card rounded-2xl p-8 text-center border border-border">
                 <EduCoin size="lg" className="mx-auto mb-3 opacity-50" />
-                <p className="text-muted-foreground font-medium">No transactions yet</p>
+                <p className="text-muted-foreground font-medium">{t('rewards.noTransactions')}</p>
                 <p className="text-sm text-muted-foreground/70 mt-2">
-                  Complete games and tasks to earn EduCoins!
+                  {t('rewards.completeTasksToEarnCoins')}
                 </p>
               </div>
             ) : (
@@ -717,12 +717,12 @@ export default function RewardsPage() {
             {showHistory ? (
               <>
                 <Sparkles className="h-4 w-4 mr-2" />
-                Back to Rewards
+                {t('rewards.backToRewards')}
               </>
             ) : (
               <>
                 <History className="h-4 w-4 mr-2" />
-                View History
+                {t('rewards.viewHistory')}
               </>
             )}
           </Button>
